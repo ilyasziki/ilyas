@@ -1,0 +1,1337 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Cutive+Mono&family=Oswald&family=Satisfy&family=Teko:wght@300&family=Trade+Winds&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Cutive Mono', monospace;
+ 
+}
+body{
+    background-image: linear-gradient(to right,#01022d, #000);
+    height:100vh;
+    
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    
+  
+    
+    
+}
+.container{
+    background-image:
+    linear-gradient(#01022d, #0000002f),
+    url(zziki.png);
+    background-position:center;
+    padding: 20px;
+    height:640px;
+   min-width: 100vh;
+   width: 6000px;
+    
+  
+   
+
+
+}
+.container:hover{
+    background-image:
+    linear-gradient(#01022d, #0000002f,transparent),
+    url(zziki.png);
+   
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-transform:capitalize;
+ 
+ 
+    
+}
+
+a{
+    color:white;
+    text-decoration:none;
+
+}
+.ilyas{
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size: 15px;
+
+}
+ul{
+    width:60%;
+    list-style:none;
+    display:flex ;
+    justify-content: space-evenly;
+}
+ul a{
+   
+   
+    border-radius: 10px;
+  
+}
+ul a:hover{
+    background-color:rgba(255, 255, 255, 0.212);
+    border:solid 6px transparent;
+    
+   
+}
+.btn{
+    background-color:transparent;
+    width:100px;
+    border:solid 0.1px rgba(255, 255, 255, 0.288);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    
+   
+
+}
+.btn:hover{
+    background-color:rgba(255, 255, 255, 0.164) ;
+    color:white;
+}
+
+
+input{
+    border-radius: 10px;
+    border:solid 2px gold;
+    height: 40px;
+}
+h2{
+    color:gold;
+    font-weight: 700;
+    text-transform:capitalize;
+    margin-left:20px;
+  
+    
+
+}
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:20px;
+    
+    
+    
+
+  
+  
+    
+}
+h2 ,p{
+    
+   
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Caveat+Brush&family=Cutive+Mono&family=Oswald&family=Protest+Riot&family=Satisfy&family=Teko:wght@300&family=Trade+Winds&display=swap');
+.botton{
+    padding: 10px;
+    border-radius: 15px;
+    height: 60px;
+    width:100px;
+    font-weight:700;
+    font-size: large;
+    margin-left: 20px;
+    border:solid 1px white;
+    background-color: rgb(255, 255, 255);
+    color:blue;
+   
+    font-family: "Trade Winds", system-ui;
+    font-weight: 400;
+    font-style: normal;
+      
+      
+  
+  
+
+}
+button:hover{
+    background-color: transparent;
+}
+span{
+    color:gold;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.section{
+    display: flex;
+    width:900px;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.parent{
+    background-color: blueviolet;
+    padding: 10px;  
+    display:flex;
+    height:600px;
+    flex-direction: row;
+
+    gap:70pxpx;
+
+    
+   
+   
+  
+}
+.parent div{
+    padding: 10px;
+    margin:10px;
+}
+.item1{
+    background-color: brown;
+    flex-basis:
+    
+   
+}
+.item2{
+    background-color: gold;
+    flex-shrink:0;
+
+}
+.item3{
+    background-color: green;
+}
+.item4{
+    background-color: violet;
+    flex-grow:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+hide (visibility:hidden)
+delete(display:none;)
+transparency
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Primary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body">
+    <h5 class="card-title">Secondary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*<div class="card" style="width: 18rem;"
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div{
+    width: 600px;
+    height:600px;
+    background-color: blueviolet;
+   
+}
+div div{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    animation-name:ilyas;
+    animation-duration:7s;
+    position:relative;
+    top:270px;
+    left:260px;
+    animation-timing-function: ease-in-out;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+   
+}
+p{
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+    position: relative;
+    bottom:30px;
+}
+@keyframes ilyas{
+    0%{
+        rotate:30deg;
+    }
+    100%{
+        rotate:100deg;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*input:disabled{
+    background-color: blue;
+}
+input:enabled{
+    background-color: green;
+}
+input:required{
+    background-color: blueviolet;
+
+}
+input:invalid{
+    background-color: red;
+
+
+}
+
+input:valid{
+    background-color:yellow;
+}
+input:checked{
+    position:absolute;
+    right:0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*a{
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color:red
+}
+a:visited{
+    color:gold
+}
+a:link{
+    color:green;
+}
+a:active{
+    color:brown
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background-color: black;
+}
+div{
+    width: 80px;
+   
+    height:80px;
+    background-color: goldenrod;
+  
+    animation-name:ilyas;
+    animation-delay:2s;
+    animation-duration:4s;
+    animation-iteration-count:normal;
+    animation-direction:normal;
+    animation-timing-function:linear;
+    animation-fill-mode:forwards;
+    
+  
+    
+    
+ 
+}
+@keyframes ilyas{
+    0%{
+      translate:0 0 ;
+      rotate:0deg;
+      background-color:red ;
+
+
+    }
+    25%{
+        translate:0 500px;
+        background-color: blue;
+        rotate: 70deg;
+       
+    }
+    50%{
+        translate:500px 500px;
+        background-color: green;
+        rotate:100deg;
+    }
+    75%{
+        translate:500px 0px;
+        background-color: blueviolet; 
+        rotate:200deg
+    }
+    100%{
+        translate:0 0;
+        rotate:360deg;
+        background-color: aqua;
+    }
+
+}
+div:hover{
+    animation-play-state: paused;
+    cursor:pointer
+}
